@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(227, 217, 217);
+  }
+  *,
+  *:after,
+  *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+.header_elements{
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px 15px;
+  }
+  .header_title{
+    font-size: 35px;
+   font-family: 'Edu QLD Beginner', cursive;
+    color: rgb(116, 67, 67);
+    font-weight: 600;
+  }
+ 
+  .header_cart_icon{
+    cursor: pointer;
+    font-size: 25px;
+   
+  }
+.book{
+    border: 1px solid rgb(236, 234, 230);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.books{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  
+}
+.books_img{
+    width: 300px ;
+    height:400px;
+}
+.books_info{
+}
+.books_all_info{
+    display: flex;
+    justify-content:space-around;
+}
+.books_title{
+font-size: 18px;
+font-weight: 600;
+}
+.books_price{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.add_button{
+  cursor: pointer;
+    display: block;
+     margin: 15px auto;
+    padding: 8px 60px;
+    background-color: rgb(70, 178, 70);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+}
+.add_button:hover{
+  background-color:rgb(46, 126, 37);
+}
+
+.detals{
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding-top: 50px ;
+  min-height: 555px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+display:flex ;
+justify-content:space-evenly
+}
+.book_imgg{
+  width: 185px;
+  height: 235px;
+}
+.info_block{
+  display: block;
+  width: 410px;
+}
+
+.annotation{
+  font-size: 18px;
+}
+
+.annotation_text{
+  opacity: 0.8;
+  font-size: 13px;
+}
+.info_block_title{
+  color: rgb(100, 78, 78);
+  font-size: 18px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Корзина */
+.item{
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .item_inf{
+    display: flex;
+    align-items: center;
+  }
+  .info_block_title{
+    margin-left: 30px;
+  }
+  .basket_block{
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .img_book{
+    width: 180px;
+    height: 230px;
+  }
+  
+  .basket{
+    font-size: 28px;
+    color:rgb(75, 68, 68);
+  }
+  .basket_title{
+    margin-bottom: 20px;
+  }
+  .delete{
+    cursor: pointer;
+    padding-right: 10px;
+  }
+  .delete_icon{
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .empty_basket{
+    font-size: 30px;
+  }
+  .header_cart_icon{
+    color:rgb(0, 0, 0);
+    position: relative;
+  }
+  .items-in-cart{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+    border-radius: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(221, 221, 221);
+    z-index: 2;
+    left: 29px;
+    top: 0;
+
+  }
+.book_page_img{
+  width: 300px;
+  height: 400px;
+}
+.order_block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total_info{
+  font-size: 21px;
+  display: flex;
+  flex-direction: column;
+}
+.add_button--red{
+  font-size: 14px;
+  height: 50px;
+  background-color: rgb(232, 133, 133);
+  width: 170px;
+  border: 1px solid white;
+  border-radius: 5%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.add_button--red:hover{
+  background-color: rgb(165, 7, 7);
+}
+
+.navigation_button_block{
+  margin: 70px 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.navigation_button{
+  border-radius: 25px;
+  background-color: rgb(193, 206, 223);
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.navigation_button:hover{
+  background-color: rgb(162, 197, 209);
+}
+.navlink{
+  text-decoration: none;
+}
+.empty_basket_block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
